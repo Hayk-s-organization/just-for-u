@@ -1,0 +1,29 @@
+service: be-exercise
+
+package:
+  individually: true
+
+plugins:
+  - serverless-bundle # Package our functions with Webpack
+  - serverless-offline
+  - serverless-dotenv-plugin # Load .env as environment variables
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  stage: dev
+  region: eu-central-1
+
+functions:
+  getProducts:
+    handler: handler.getProducts
+    events:
+      - http:
+          path: products
+          method: get
+  getProductById:
+    handler: handler.getProductById
+    events:
+      - http:
+          path: product/:productId
+          method: get

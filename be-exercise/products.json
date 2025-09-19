@@ -1,0 +1,134 @@
+[
+	{
+		"id": 1,
+		"brand": "Chanel",
+		"name": "Gabrielle Chanel Essence Eau de Parfum",
+		"description": "An oriental floral fragrance for women featuring a blend of jasmine, ylang-ylang, orange blossom, and tuberose.",
+		"price": 150,
+		"inventory": 0,
+		"reviews": [
+			{
+				"id": 1,
+				"user": "Emily Brown",
+				"comment": "This fragrance is so luxurious and long-lasting!",
+				"rating": 5
+			},
+			{
+				"id": 2,
+				"user": "Samuel Davis",
+				"comment": "The scent is too strong for my taste, but it's definitely high-quality.",
+				"rating": 3.5
+			}
+		]
+	},
+	{
+		"id": 2,
+		"brand": "Gucci",
+		"name": "Ace GG Supreme sneaker with bees",
+		"description": "White leather sneaker with the iconic GG print and a metallic bee detail.",
+		"price": 680,
+		"inventory": 20,
+		"reviews": [
+			{
+				"id": 3,
+				"user": "Mia Kim",
+				"comment": "The shoes are beautiful and comfortable, but they run a bit small.",
+				"rating": 4.5
+			},
+			{
+				"id": 4,
+				"user": "William Chen",
+				"comment": "I love the design, but the price is a bit steep.",
+				"rating": 4
+			}
+		]
+	},
+	{
+		"id": 3,
+		"brand": "Prada",
+		"name": "Galleria Saffiano Leather Tote",
+		"description": "Structured saffiano leather tote with double handles and a removable shoulder strap.",
+		"price": 2300,
+		"inventory": 0,
+		"reviews": [
+			{
+				"id": 5,
+				"user": "Sophia Rodriguez",
+				"comment": "This bag is worth every penny - it's spacious, durable, and timeless.",
+				"rating": 5
+			},
+			{
+				"id": 6,
+				"user": "Jacob Lee",
+				"comment": "The bag is beautiful, but it's too heavy for everyday use.",
+				"rating": 3.5
+			}
+		]
+	},
+	{
+		"id": 6,
+		"brand": "Nike",
+		"name": "Air Jordan 1",
+		"description": "The classic Air Jordan 1 shoe, in black and red colorway.",
+		"price": 150,
+		"inventory": 10,
+		"reviews": [
+			{
+				"id": 7,
+				"user": "Jessica Perez",
+				"comment": "Love these shoes! They're comfortable and stylish.",
+				"rating": 4.5
+			},
+			{
+				"id": 8,
+				"user": "David Kim",
+				"comment": "Great shoes, but they run a bit small. Order half a size up.",
+				"rating": 4
+			}
+		]
+	},
+	{
+		"id": 7,
+		"brand": "Adidas",
+		"name": "UltraBoost 21",
+		"description": "Running shoes with responsive cushioning and a lightweight feel.",
+		"price": 180,
+		"inventory": 0,
+		"reviews": [
+			{
+				"id": 9,
+				"user": "Michelle Nguyen",
+				"comment": "These shoes are amazing! They make running feel effortless.",
+				"rating": 5
+			},
+			{
+				"id": 10,
+				"user": "Alex Chen",
+				"comment": "I ordered these shoes, but they were out of stock. Disappointed.",
+				"rating": 2
+			}
+		]
+	},
+	{
+		"id": 8,
+		"brand": "Adidas",
+		"name": "UltraBoost 21",
+		"description": "Running shoes with responsive cushioning and a lightweight feel.",
+		"price": 180,
+		"inventory": 0,
+		"reviews": [
+			{
+				"id": 9,
+				"user": "Michelle Nguyen",
+				"comment": "These shoes are amazing! They make running feel effortless.",
+				"rating": 5
+			},
+			{
+				"id": 10,
+				"user": "Alex Chen",
+				"comment": "I ordered these shoes, but they were out of stock. Disappointed.",
+				"rating": 2
+			}
+		]
+	}
+]

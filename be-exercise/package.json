@@ -1,0 +1,26 @@
+{
+	"name": "be-exercise",
+	"version": "0.1.0",
+	"description": "A TypeScript starter for Serverless Framework",
+	"main": "handler.js",
+	"scripts": {
+		"test": "serverless-bundle test",
+		"start": "serverless offline start"
+	},
+	"author": "",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AnomalyInnovations/serverless-typescript-starter.git"
+	},
+	"devDependencies": {
+		"@types/aws-lambda": "^8.10.64",
+		"@types/jest": "^26.0.14",
+		"serverless-bundle": "6.0.0",
+		"serverless-dotenv-plugin": "^3.0.0",
+		"serverless-offline": "^12.0.4",
+		"serverless": "^3.30.1",
+		"prettier": "^2.6.2"
+	},
+	"dependencies": {}
+}
